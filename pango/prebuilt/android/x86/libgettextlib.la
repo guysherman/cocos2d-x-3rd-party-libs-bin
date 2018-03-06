@@ -14,10 +14,10 @@ library_names=''
 old_library='libgettextlib.a'
 
 # Linker flags that cannot go in dependency_libs.
-inherited_linker_flags=' -fopenmp -pthread'
+inherited_linker_flags=' -fopenmp'
 
 # Libraries that this one depends upon.
-dependency_libs=' -R/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib -L/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libintl.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libglib-2.0.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libgettextpo.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libintl.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libffi.la -lc /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libxml2.la -L/Users/guysherman/Source/ProjectUbupya/PangoAndroid/glob -lglob -lz -lm /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libiconv.la'
+dependency_libs=' -R/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libintl.la -lc -L/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libxml2.la -L/Users/guysherman/Source/ProjectUbupya/PangoAndroid/glob -lglob -lz -lm /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libiconv.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libcharset.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libiconv.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libcharset.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib'
+libdir='/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib'

@@ -1,0 +1,11 @@
+prefix=/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pixman
+Description: The pixman library (version 1)
+Version: 0.34.0
+Cflags: -I${includedir}/pixman-1
+Libs: -L${libdir} -lpixman-1
+

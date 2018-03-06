@@ -17,15 +17,15 @@ old_library='libgobject-2.0.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libgettextpo.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libglib-2.0.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libgettextpo.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libffi.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libintl.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libiconv.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libffi.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libintl.la -lc /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib/libiconv.la'
+dependency_libs=' /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libglib-2.0.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libintl.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libiconv.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libgettextpo.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libffi.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libcharset.la -L/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libgettextpo.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libintl.la -lc /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libiconv.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libffi.la /Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib/libcharset.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
 
 # Version information for libgobject-2.0.
-current=4000
-age=4000
-revision=0
+current=4800
+age=4800
+revision=2
 
 # Is this an already installed library?
 installed=yes
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr/lib'
+libdir='/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib'

@@ -1,0 +1,14 @@
+prefix=/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr
+exec_prefix=/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr
+libdir=/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/lib
+includedir=/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 18.3.12
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

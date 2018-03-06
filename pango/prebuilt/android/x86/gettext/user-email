@@ -17,7 +17,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Prerequisites for using ${exec_prefix}/lib and ${datarootdir}/locale.
-prefix="/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android/bin/../sysroot/usr"
+prefix="/Users/guysherman/Source/ProjectUbupya/PangoAndroid/../../toolchains/x86-android-r11/bin/../sysroot/usr"
 exec_prefix="${prefix}"
 datarootdir="${prefix}/share"
 datadir="${datarootdir}"
